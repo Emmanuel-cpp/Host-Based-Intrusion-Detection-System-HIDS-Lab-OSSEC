@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Objective
+## Objective
 
 This project demonstrates the full deployment and operation of **OSSEC**, an open-source Host-based Intrusion Detection System (HIDS), in a multi-machine virtual lab environment. The lab simulates real-world attack scenarios and shows how a HIDS monitors, detects, and automatically responds to threats at the host level.
 
@@ -24,7 +24,7 @@ Key areas covered:
 
 ---
 
-## 🏗️ Lab Architecture
+## Lab Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -66,8 +66,7 @@ A monitored endpoint with the OSSEC Windows agent installed. Forwards Windows Ev
 
 ---
 
-## 🛠️ Tools & Technologies
-
+## Tools & Technologies
 | Tool | Purpose |
 |---|---|
 | **OSSEC 3.7.0** | Host-based Intrusion Detection System |
@@ -81,7 +80,7 @@ A monitored endpoint with the OSSEC Windows agent installed. Forwards Windows Ev
 
 ---
 
-## ⚙️ OSSEC Features Demonstrated
+## OSSEC Features Demonstrated
 
 | Feature | Description |
 |---|---|
@@ -94,7 +93,7 @@ A monitored endpoint with the OSSEC Windows agent installed. Forwards Windows Ev
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - VirtualBox installed on Windows host
@@ -302,7 +301,7 @@ Src IP: 192.168.56.1
 
 ---
 
-## 🔑 Key Takeaways
+## Key Takeaways
 
 **HIDS vs NIDS**
 OSSEC operates at the host level by reading log files and monitoring system state. Unlike network IDS tools such as Snort which inspect network packets, OSSEC detects threats that have already reached the host. In production both are deployed together for complete coverage.
@@ -318,7 +317,7 @@ A single failed login is noise. Eight failed logins in 30 seconds from the same 
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 OSSEC-HIDS-Lab/
@@ -332,13 +331,12 @@ OSSEC-HIDS-Lab/
 │   ├── ossec-alerts-search.png    ← 135 alerts, brute force correlation
 │   ├── windows-agent-alerts.png   ← Windows endpoint alerts
 │   └── web-attack-alerts.png      ← Web attack + FIM alerts
-└── configs/
-    └── ossec.conf
+└── 
 ```
 
 ---
 
-## 🔗 References
+## References
 
 - [OSSEC Official Documentation](https://www.ossec.net/docs/)
 - [OSSEC GitHub Repository](https://github.com/ossec/ossec-hids)
@@ -346,10 +344,10 @@ OSSEC-HIDS-Lab/
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Emmanuel Siamoonga**
-Bachelor of Science in Computer Science — The Copperbelt University, Kitwe, Zambia
+Network and Cloud Security
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/yourprofile)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/yourusername)
