@@ -175,7 +175,7 @@ sudo systemctl restart apache2
 
 ---
 
-## 📸 Lab Setup
+## Lab Setup
 
 ### OSSEC Server — All Processes Running
 ![OSSEC Status](screenshots/ossec-status.png)
@@ -336,13 +336,8 @@ OSSEC-HIDS-Lab/
 
 ---
 
-## References
-
-- [OSSEC Official Documentation](https://www.ossec.net/docs/)
-- [OSSEC GitHub Repository](https://github.com/ossec/ossec-hids)
-- [OSSEC Rules Reference](https://www.ossec.net/docs/docs/manual/rules-decoders/index.html)
-
----
+## Conclusion
+This project demonstrates the practical implementation of a Host-Based Intrusion Detection System and highlights the importance of endpoint monitoring in cybersecurity. It reflects real-world blue team operations including detection, analysis, and incident awareness.
 
 ## Author
 
