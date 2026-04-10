@@ -300,22 +300,6 @@ Src IP: 192.168.56.1
 
 ---
 
-## Key Takeaways
-
-**HIDS vs NIDS**
-OSSEC operates at the host level by reading log files and monitoring system state. Unlike network IDS tools such as Snort which inspect network packets, OSSEC detects threats that have already reached the host. In production both are deployed together for complete coverage.
-
-**Active Response**
-OSSEC goes beyond detection — it automatically responds to threats by modifying firewall rules in real time. When brute-force was detected, the attacker IP was blocked without any manual intervention, demonstrating automated defense.
-
-**Centralized Multi-Platform Monitoring**
-A single OSSEC server simultaneously monitored a Linux server and a Windows endpoint, mirroring how enterprise SOC environments aggregate logs from diverse systems into one detection platform.
-
-**Alert Correlation**
-A single failed login is noise. Eight failed logins in 30 seconds from the same IP is an attack. OSSEC's correlation engine makes this distinction automatically — turning raw log data into actionable security intelligence.
-
----
-
 ## Repository Structure
 
 ```
