@@ -1,4 +1,4 @@
-# 🛡️ Host-Based Intrusion Detection System (HIDS) Lab — OSSEC
+# Host-Based Intrusion Detection System (HIDS) Lab — OSSEC
 
 ![Security](https://img.shields.io/badge/Security-Intrusion%20Detection-red?style=for-the-badge&logo=shield)
 ![OSSEC](https://img.shields.io/badge/OSSEC-3.7.0-blue?style=for-the-badge)
