@@ -20,7 +20,6 @@ Key areas covered:
 - Web attack detection through Apache log analysis
 - Real-time alert visualization through the OSSEC Web UI
 
-> Built as part of a hands-on cybersecurity course project at The Copperbelt University, reflecting practical skills in threat detection, log analysis, active response, and security monitoring.
 
 ---
 
