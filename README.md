@@ -5,7 +5,7 @@
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange?style=for-the-badge&logo=ubuntu)
 ![Kali](https://img.shields.io/badge/Kali-Linux-557C94?style=for-the-badge&logo=kalilinux)
 ![Windows](https://img.shields.io/badge/Windows-Agent-0078D6?style=for-the-badge&logo=windows)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![Status]
 
 ---
 
