@@ -5,7 +5,7 @@
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange?style=for-the-badge&logo=ubuntu)
 ![Kali](https://img.shields.io/badge/Kali-Linux-557C94?style=for-the-badge&logo=kalilinux)
 ![Windows](https://img.shields.io/badge/Windows-Agent-0078D6?style=for-the-badge&logo=windows)
-![Status]
+
 
 ---
 
@@ -54,13 +54,13 @@ Key areas covered:
 
 ### Role of Each Machine
 
-**🔴 Kali Linux — The Attacker**
+** Kali Linux — The Attacker**
 Simulates a real-world threat actor. Used Hydra for SSH brute-force attacks and web enumeration to generate detectable malicious activity against the monitored systems.
 
-**🟢 Ubuntu VM — The OSSEC Server**
+** Ubuntu VM — The OSSEC Server**
 The brain of the entire lab. Runs the OSSEC analysis engine, collects logs from all agents, fires detection rules, triggers automated Active Response, and hosts the Web UI dashboard.
 
-**🟡 Windows Host — The OSSEC Agent**
+** Windows Host — The OSSEC Agent**
 A monitored endpoint with the OSSEC Windows agent installed. Forwards Windows Event Logs and security events to the Ubuntu OSSEC server in real time — simulating enterprise endpoint monitoring.
 
 ---
@@ -187,7 +187,7 @@ sudo systemctl restart apache2
 
 ---
 
-## 🔴 Demo 1 — SSH Brute Force Detection & Active Response
+## Demo 1 — SSH Brute Force Detection & Active Response
 
 **Attack from Kali using Hydra:**
 ```bash
@@ -213,7 +213,7 @@ sudo iptables -L -n | grep DROP
 
 ---
 
-## 🔴 Demo 2 — File Integrity Monitoring (FIM)
+## Demo 2 — File Integrity Monitoring (FIM)
 
 **Simulated attacker tampering with system files:**
 ```bash
@@ -232,7 +232,7 @@ Location: ubuntu->syscheck
 
 ---
 
-## 🔴 Demo 3 — Windows Agent Endpoint Monitoring
+## Demo 3 — Windows Agent Endpoint Monitoring
 
 **Windows security events forwarded to OSSEC server:**
 
@@ -248,7 +248,7 @@ Rule 18110 (Level 8) → User account enabled/created — windows-agent 192.168.
 
 ---
 
-## 🔴 Demo 4 — Web Attack Detection
+## Demo 4 — Web Attack Detection
 
 **Multiple web 400 errors from same source detected:**
 
@@ -265,7 +265,7 @@ Src IP:   192.168.56.1
 
 ---
 
-## 🔴 Demo 5 — Authentication Failure Correlation
+## Demo 5 — Authentication Failure Correlation
 
 **OSSEC correlated repeated authentication failures:**
 
@@ -288,13 +288,13 @@ Src IP: 192.168.56.1
 |---|---|---|---|---|
 | 5503 | 5 | Medium | User login failed | auth.log |
 | 5716 | 5 | Medium | SSHD authentication failed | auth.log |
-| **5720** | **10** | **🔴 Critical** | **Multiple SSHD failures — Brute Force** | auth.log |
+| **5720** | **10** | ** Critical** | **Multiple SSHD failures — Brute Force** | auth.log |
 | 550 | 7 | High | Integrity checksum changed | syscheck |
 | 551 | 7 | High | Integrity checksum changed again | syscheck |
 | 18110 | 8 | High | User account enabled/created | WinEvtLog |
 | 18111 | 8 | High | User account changed | WinEvtLog |
-| **31151** | **10** | **🔴 Critical** | **Multiple web 400 errors — Web Attack** | Apache |
-| **2502** | **10** | **🔴 Critical** | **User missed password multiple times** | auth.log |
+| **31151** | **10** | ** Critical** | **Multiple web 400 errors — Web Attack** | Apache |
+| **2502** | **10** | ** Critical** | **User missed password multiple times** | auth.log |
 
 **Total alerts captured during lab: 135**
 
