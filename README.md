@@ -282,7 +282,7 @@ Src IP: 192.168.56.1
 
 ---
 
-## 📊 Alert Summary Table
+## Alert Summary Table
 
 | Rule | Level | Severity | Description | Source |
 |---|---|---|---|---|
@@ -326,8 +326,5 @@ This project demonstrates the practical implementation of a Host-Based Intrusion
 
 **Emmanuel Siamoonga**
 Network and Cloud Security
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/yourusername)
 
 > *"Security is not a product, but a process."* — Bruce Schneier
